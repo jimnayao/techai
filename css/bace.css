@@ -1,0 +1,71 @@
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+dl,
+dd,
+td,
+input,
+fieldset,
+textarea,
+option {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	
+}
+i{
+	vertical-align: inherit !important;
+}
+a,
+input {
+	text-decoration: none;
+	outline: none;
+}
+
+@font-face {
+	font-family: "Source";
+	src: local("./SourceHanSansCN-Regular.ttf"), local("./SourceHanSansCN-Regular.ttf"), url(./SourceHanSansCN-Regular.ttf);	
+}
+
+body {
+	font-family: "Source", "microsoft yahei","微软雅黑";
+	margin: 0;
+	color: #2c3437;
+	background: #fff;
+}
+a{
+	color: #666;
+}
+a:hover,a:focus{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.padlr0{
+	padding-left: 0;
+	padding-right: 0;
+}
+.inblock{
+	display: inline-block;
+	vertical-align: top;
+}
+.mt10{
+	margin-top: 10px;
+}
+.relative{
+	position: relative;
+}
+a,button, input,span {
+    outline: none;
+}
