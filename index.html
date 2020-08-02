@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title></title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="tool/bootstrap-3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bace.css">
+		<link rel="stylesheet" href="tool/swiper/swiper.min.css" />
+
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="tool/jquery.min.js"></script>
+		<script type="text/javascript" src="tool/swiper/swiper.min.js"></script>
+		<script type="text/javascript" src="tool/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/jsmodern.min.css" />
+		<script type="text/javascript" src="css/jsmodern.min.js"></script>
+
+		<!--<link rel="stylesheet" href="css/animate.min.css" />
+		<script type="text/javascript" src="tool/isScroll.js"></script>-->
+		<style>
+			.jsmodern-video-panel {
+				display: none !important;
+			}
+			
+			.jsmodern-video {
+				background: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="nav_banner">
+			<div class="navbar-default nav_position padlr0">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="headlogo">
+						<img src="img/footer.png" />
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="javascript:void(0)" index="1">关于屉茶</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" index="2">屉茶产品</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" index="3">品质屉茶</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" index="4">官方微信</a>
+						</li>
+						<!--<li>
+							<a href="javascript:void(0)" >线上商城</a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+			<div class="banner1">
+				<div class="swiper-container" id="banner1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/banner0.jpg" width="100%" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/banner1.jpg" width="100%" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/banner2.jpg" width="100%" />
+						</div>
+					</div>
+					<div class="swiper-pagination" id="sw_page1"></div>
+				</div>
+			</div>
+		</div>
+		<div class="big_title text-center" id="index_1">
+			<span class="icon"></span>
+			<p class="title" id="tl1" data-animation="fadeInUp">ABOUT TECHAI</p>
+		</div>
+
+		<div class="banner2">
+
+			<div class="swiper-container" id="banner2" data-animation="fadeInUp">
+				<div class="swiper-wrapper text-center">
+					<div class="swiper-slide">
+						<div class="cont">
+							<p class="cont_title">关于屉茶</p>
+							<p class="text-center">
+								<br /> 屉茶（广州）茶业有限公司是一家新锐茶企。<br /> 以“喝高级茶，选高性价”为品牌主张，
+								<br /> 自建溯源SOP、品控SOP、审评SOP系统，
+								<br /> 推出经典名茶、同源花果茶、创新茶、快茶具等产品。
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="cont">
+							<p class="cont_title">关于屉茶</p>
+							<p class="text-center">
+								<br /> 多渠道拓展并创立开放式茶空间。
+								<br /> 为精英和年轻人提供多元和个性化的饮茶选择。
+								<br />安徽亳州为中华药都，是中国最大的药材集散地。<br /> 屉茶在亳州双创产业园建厂，秒杀各贴牌代工产品。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination" id="sw_page2"></div>
+			</div>
+			<img src="img/about.jpg" width="100%" class="quality_img" />
+		</div>
+
+		<div class="big_title text-center" id="index_2">
+			<span class="icon"></span>
+			<p class="title">HERB & FRUIT TEA</p>
+		</div>
+		<div class="herb">
+			<div class="swiper-container text-center" id="herb_part">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide heab_li" id="heab_li1" data-animation="fadeInLeft">
+						<div class="product_li">
+							<img src="img/product1.png" width="100%" />
+							<p class="name mt10">桂花苹果决明子茶</p>
+							<p class="spec">净含量：36克（12袋）</p>
+							<p class="price">¥59.9/盒</p>
+							<a class="btn mt10">
+								更多详情
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide heab_li" id="heab_li" data-animation="fadeInLeft" style="animation-delay: 200ms">
+						<div class="product_li">
+							<img src="img/product2.png" width="100%" />
+							<p class="name mt10">茉莉雪梨葛根茶</p>
+							<p class="spec">净含量：42克（12袋）</p>
+							<p class="price">¥59.9/盒</p>
+							<a class="btn mt10">
+								更多详情
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide heab_li" data-animation="fadeInLeft" style="animation-delay: 400ms">
+						<div class="product_li">
+							<img src="img/product3.png" width="100%" />
+							<p class="name mt10">贡菊木瓜玉竹茶</p>
+							<p class="spec">净含量：36克（12袋）</p>
+							<p class="price">¥59.9/盒</p>
+							<a class="btn mt10">
+								更多详情
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="product_li">
+							<img src="img/product4.png" width="100%" />
+							<p class="name mt10">洛神黄桃红枣茶</p>
+							<p class="spec">净含量：42克（12袋）</p>
+							<p class="price">¥59.9/盒</p>
+							<a class="btn mt10">
+								更多详情
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="product_li">
+							<img src="img/product5.png" width="100%" />
+							<p class="name mt10">玫瑰草莓茯苓茶</p>
+							<p class="spec">净含量：42克（12袋）</p>
+							<p class="price">¥59.9/盒</p>
+							<a class="btn mt10">
+								更多详情
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+
+		<div class="banner3 clearfix" id="index_3">
+			<div class="cont clearfix relative">
+				<div class="img relative">
+					<img src="img/test.jpg" width="100%" class="test1" />
+					<img src="img/test2.jpg" width="100%" class="test2" />
+					<div class="swiper-container" id="banner3">
+						<div class="swiper-wrapper text-center">
+							<div class="swiper-slide">
+								<div class="flex_cont">
+									<div class="cont1">
+										<div class="pro_li relative" style="height: 57%;">
+											<img src="img/1_01.png" />
+											<p class="txt">茉莉雪梨葛根茶</p>
+										</div>
+										<div class="pro_li relative" style="height: 43%;padding-top: 1%;">
+											<img src="img/1_02.png" />
+											<p class="txt">贡菊木瓜玉竹茶</p>
+										</div>
+									</div>
+									<div class="cont2">
+										<div class="pro_li relative" style="height: 31%;">
+											<img src="img/1_03.png" />
+										</div>
+										<div class="pro_li relative" style="height: 69%;padding-top: 1%;">
+											<img src="img/1_04.png" />
+											<p class="txt">桂花苹果决明子茶</p>
+										</div>
+									</div>
+									<div class="cont3">
+										<div class="pro_li relative pro_li1">
+											<img src="img/1_05.png" />
+											<p class="txt">洛神黄桃红枣茶</p>
+										</div>
+										<div class="pro_li relative pro_li2">
+											<img src="img/1_06.png" />
+											<p class="txt">玫瑰草莓茯苓茶</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="flex_cont">
+									<div class="cont1">
+										<div class="pro_li relative" style="height: 57%;">
+											<img src="img/4_01.png" />
+										</div>
+										<div class="pro_li relative" style="height: 43%;padding-top: 1%;">
+											<img src="img/4_02.png" />
+										</div>
+									</div>
+									<div class="cont2">
+										<div class="pro_li relative" style="height: 31%;">
+											<img src="img/4_03.png" />
+										</div>
+										<div class="pro_li relative" style="height: 69%;padding-top: 1%;">
+											<img src="img/4_04.png" />
+										</div>
+									</div>
+									<div class="cont3">
+										<div class="pro_li relative pro_li1">
+											<img src="img/4_05.png" />
+										</div>
+										<div class="pro_li relative pro_li2">
+											<img src="img/4_06.png" />
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!--<div class="swiper-slide active">
+								<div class="flex_cont">
+									<div class="cont4">
+										<div class="pro_li relative" style="height: 100%;">
+											<img src="img/3_03.jpg" />
+											<p class="txt"></p>
+										</div>
+									</div>
+									<div class="cont5">
+										<div class="addr_cont text-left relative">
+											<p class="addr_title text-left">公司路线 <span class="en">Courtyard route</span></p>
+											<div class="addr_li">
+												<p class="addr_t"><img src="img/3_06.jpg" />广州南站:</p>
+												<p class="clearfix">地铁7号线（汉溪长隆换乘）→地铁3号线（珠江新城换乘）→地铁5号线（潭村D出口）</p>
+											</div>
+											<div class="addr_li">
+												<p class="addr_t"><img src="img/3_09.jpg" />广州南站:</p>
+												<p class="clearfix">地铁3号线北延段（珠江新城换乘）→地铁5号线（潭村D出口）</p>
+											</div>
+											<div class="addr_li">
+												<p class="addr_t"><img src="img/3_12.jpg" />广州南站:</p>
+												<p class="clearfix">地铁5号线文冲方向直达潭村D出口</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>-->
+						</div>
+					</div>
+
+				</div>
+				<div class="pagination_l">
+					<div class="title">
+						<span class="name_ch">品质屉茶</span>
+						<br />
+						<span class="name_en">
+							Techai Quality
+						</span>
+					</div>
+					<div class="pagenav">
+						<div class="swiper_btn">
+							<div class="swiper-button swiper-button-top">+</div>
+							<div class="swiper-button swiper-button-bot">-</div>
+						</div>
+						<div class="swiper-pagination" id="sw_page3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="big_title text-center relative video_tl">
+			<span class="icon"></span>
+			<p class="title">HERB & FRUIT TEA</p>
+			<p class="col-md-12 txt">同源花果系列</p>
+		</div>
+		<div class="video relative clearfix">
+			<div class="video_m relative">
+				<div class="relative" style="width: 100%;">
+					<img src="img/tea.png" width="100%" />
+					<div class="swiper-container text-center video_part">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" style="width: 100%;">
+								<div id="video" style="height: 100%;width: 100%;">
+									<video src="css/video.mp4" id="videoShow" style="height: 100%;width: 100%;" poster="img/video2.jpg">
+										<source src="css/video.mp4" type="video/mp4"></source>
+										<source src="css/video.ogg" type="video/ogg"></source>
+										<source src="css/video.webm" type="video/webm"></source>
+										<object width="" height="" type="application/x-shockwave-flash" data="css/video.swf">
+											<param name="movie" value="video.swf" />
+											<param name="flashvars" value="autostart=true&amp;file=video.swf" />
+										</object> 当前浏览器不支持 video直接播放，点击这里下载视频：
+										<a href="http://player.youku.com/embed/XNDQwMDEzMjIwMA==">下载视频</a>
+									</video>
+									<span class="VideoBtn"><img src="img/start_btn.png"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="txt">
+					同源花果系列
+				</div>
+			</div>
+			<div class="imgbg">
+				<img src="img/vidobg.png" height="100%" />
+			</div>
+		</div>
+
+		<div class="product clearfix">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-xs-4 img">
+					<img src="img/product6.png" width="100%" />
+				</div>
+				<div class="col-xs-4 img">
+					<img src="img/product7.png" width="100%" />
+				</div>
+				<div class="col-xs-4 img">
+					<img src="img/product8.png" width="100%" />
+				</div>
+			</div>
+		</div>
+
+		<div class="sop text-center ">
+			<div class="sop_t clearfix">
+				<p class="title relative">屉茶TECHAI“SOP”三法则
+					<span class="icon"></span>
+				</p>
+				<div class="img col-md-8 col-md-offset-2">
+					<div class="img_li col-xs-4">
+						<img src="img/sop1.png" width="100%" />
+					</div>
+					<div class="img_li col-xs-4">
+						<img src="img/sop2.png" width="100%" />
+					</div>
+					<div class="img_li col-xs-4">
+						<img src="img/sop3.png" width="100%" />
+					</div>
+				</div>
+			</div>
+			<div class="sop_b clearfix">
+				<div class="txt col-md-8 col-md-offset-2">
+					<div class="txt_li col-xs-4">
+						<div class="cont relative">
+							<span class="icon"></span>
+							<p class="name">
+								溯源SOP
+							</p>
+							<p class="quality">保真</p>
+							<p class="txt">采用地理标志授权<br />实现原产地溯源</p>
+						</div>
+					</div>
+					<div class="txt_li col-xs-4">
+						<div class="cont relative">
+							<span class="icon"></span>
+							<p class="name">
+								品控SOP
+							</p>
+							<p class="quality">保质</p>
+							<p class="txt">建立茶类品质图谱<br />每批次严控阈值</p>
+						</div>
+					</div>
+					<div class="txt_li col-xs-4">
+						<div class="cont relative">
+							<span class="icon"></span>
+							<p class="name">
+								审评SOP
+							</p>
+							<p class="quality">保价</p>
+							<p class="txt">国家高级技师盲评<br />重新定义性价比</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer clearfix" id="index_4">
+			<div class="text-center">
+
+				<img src="img/footer.png" class="inblock logo" />
+				<div class="inblock txt mt10">
+					屉茶（广州）茶业有限公司 | 粤ICP备16114726号-1
+					<br /> 地址：广州珠江新城马场路16号富力盈盛A栋
+					<br /> Copyright©2019 www.www.techai.shop All Rights Reserved
+					<br />
+					<!--<a class="btn footerbtn mt10">详情点击咨询</a>-->
+					<br />
+				</div>
+				<div class="inblock mt10">
+					<div class="inblock">
+						<img src="img/code1.png" />
+						<p>扫码了解更多资讯</p>
+					</div>
+					<div class="inblock">
+						<img src="img/code2.png" />
+						<p>
+							扫码屉茶小程序<br />即可购买屉茶
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			$(function() {
+				//视频
+				jsModern.video("#video");
+				//播放视频
+				$(".VideoBtn").click(function() {
+					var video = document.getElementById("videoShow");
+					video.play();
+					$('.VideoBtn').hide();
+				})
+				//监听视频的播放状态
+				var video = document.getElementById("videoShow");
+				video.oncanplay = function() {
+					$(".VideoBtn").show();
+					//$("#video").attr("poster","");
+				}
+				//视频播放事件
+				video.onplay = function() {
+					$("#videoShow").attr("poster", "");
+					$(".VideoBtn").hide();
+				};
+				video.onplaying = function() {
+					$(".VideoBtn").hide();
+				};
+
+				//视频暂停事件
+				video.onpause = function() {
+					$(".VideoBtn").show();
+				};
+				//点击视频周围暂停播放图片出现
+				video.onclick = function() {
+					if(video.paused) {
+						$(".VideoBtn").hide();
+						video.play();
+					} else {
+						$(".VideoBtn").show();
+						video.pause();
+					}
+				};
+			})
+
+			var swiper = new Swiper('#banner1', {
+				spaceBetween: 20,
+				pagination: {
+					el: '#sw_page1',
+				},
+				autoplay: {
+					delay: 3000
+				},
+			});
+			var swiper1 = new Swiper('#banner2', {
+				pagination: {
+					el: '#sw_page2',
+				},
+				autoplay: {
+					delay: 3000
+				},
+			});
+			var swiper2 = new Swiper('#herb_part', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+				//				slidesPerGroup: 3,
+				loopFillGroupWithBlank: true,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				breakpoints: {
+
+					768: {
+						slidesPerView: 2,
+						spaceBetween: 20,
+					},
+					1024: {
+						slidesPerView: 3,
+						spaceBetween: 50,
+					},
+				},
+			});
+			var swiper3 = new Swiper('#banner3', {
+				slidesPerView: 'auto',
+				//	            autoplay:5000,
+				direction: 'vertical',
+				//	            grabCursor:true,
+				autoplayDisableOnInteraction: false,
+				//	            mousewheelControl:true,
+				autoHeight: true,
+				//	            speed:2000
+
+				//				dslidesPerView :'auto',
+				//				direction:'vertical',
+				//				autoHeight:true,
+				//				slidesPerView :"auto",
+				spaceBetween: 20,
+				observer: true,
+				observeParents: true,
+				observeSlideChildren: true,
+				navigation: {
+					nextEl: '.swiper-button-bot',
+					prevEl: '.swiper-button-top',
+				},
+				pagination: {
+					el: '#sw_page3',
+					clickable: true,
+					renderBullet: function(index, className) {
+						switch(index) {
+							case 0:
+								text = '产品展示';
+								break;
+							case 1:
+								text = '自建工厂';
+								break;
+//							case 2:
+//								text = '公司路线';
+//								break;
+						}
+						return '<span class="' + className + '">' + text + '</span>';
+					},
+				},
+				autoplay: {
+					delay: 3000
+				},
+			});
+			window.onclick = function() {
+				swiper3.updateSize()
+			}
+			//			var swiper4 = new Swiper('.video_part', {
+			//				spaceBetween: 20,
+			//				navigation: {
+			//					nextEl: '.swiper-button-next',
+			//					prevEl: '.swiper-button-prev',
+			//				},
+			//			});
+			jQuery(document).ready(function($) {
+				$(".navbar-nav li a").click(function(event) {
+					$(".navbar-nav li").removeClass("active");
+					$(this).parent("li").addClass("active");
+					$(".collapse").collapse('hide');
+					var index = $(this).attr("index")
+					var id = '#' + 'index_' + index
+					$("html,body").animate({
+						scrollTop: $(id).offset().top - 50
+					}, 1000);
+				});
+
+			});
+//			$("#tl1,#banner2,.heab_li").xScroll();
+		</script>
+
+		<script>
+			function isMobile() {
+				if(navigator.userAgent.match(/Android/i) ||
+					navigator.userAgent.match(/webOS/i) ||
+					navigator.userAgent.match(/iPhone/i) ||
+					navigator.userAgent.match(/iPad/i) ||
+					navigator.userAgent.match(/iPod/i) ||
+					navigator.userAgent.match(/BlackBerry/i) ||
+					navigator.userAgent.match(/Windows Phone/i)
+				) {
+					$(".VideoBtn").remove()
+				}
+			}
+			isMobile();
+		</script>
+	</body>
+
+</html>
